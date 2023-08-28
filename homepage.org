@@ -17,7 +17,8 @@
 | [[https://www.stevens.edu][Stevens Institute of Technology]]                    |
 | Hoboken, NJ, USA                                   |
 |                                                    |
-| [[https://faculty.stevens.edu/dnaumann][Contact]] and [[file:cv-nov-2022.pdf][CV]]                                     |
+| [[https://faculty.stevens.edu/dnaumann][Contact]] and [[file:cv-aug-2023.pdf][CV]]                                     
+|
 
 
 #+BEGIN_COMMENT
@@ -33,10 +34,10 @@ file:myLongtimeStevensPhoto.jpg
 Publishing on github
 https://pages.github.com/
 
-- create public repo, say naumann.github.com 
+- create public repo, say naumann.github.com --- actually, repo name is dnaumann.github.io 
 - index.html (and whatever supporting files, which I'll keep few for now)
 
-git clone git@github.com:dnaumann/naumann
+git clone git@github.com:dnaumann/dnaumann.github.io
 
 That's it.
 
