@@ -1,0 +1,41 @@
+
+/* todo fonts 
+Arial (sans-serif)
+Verdana (sans-serif)
+*/
+
+html * { font-family: Verdana, Arial } 
+
+
+/* horizontal navigation bar */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover 
+li a:hover {
+  background-color: #111;
+}
+*/ 
+
+/* remove "Table of Contents" heading from the toc,
+which org generates as <div id="table-of-contents"><h2>Table of...
+*/
+#table-of-contents h2 { visibility: hidden   } 

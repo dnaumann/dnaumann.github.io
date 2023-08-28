@@ -1,0 +1,144 @@
+#+TITLE:     Dave Naumann 
+#+AUTHOR:    Dave Naumann
+#+LANGUAGE:  en
+#+HTML_LINK_HOME: https://www.cs.stevens.edu/~naumann
+#+OPTIONS: toc:nil num:nil H:4 ^:nil pri:t
+#+EXPORT_FILE_NAME: homepage.html
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="homepage.css"/>
+# Hard code image for the sake of positioning 
+#+BEGIN_EXPORT html
+<div class="figure">
+<img src="BreakneckCropped2.jpg" alt="Dave photo" style="float:left" width=300>
+</div>
+#+END_EXPORT
+#+HTML_HEAD: 
+
+| Professor and Department Chair of Computer Science |
+| [[https://www.stevens.edu][Stevens Institute of Technology]]                    |
+| Hoboken, NJ, USA                                   |
+|                                                    |
+| [[https://faculty.stevens.edu/dnaumann][Contact]] and [[file:cv-nov-2022.pdf][CV]]                                     |
+
+
+#+BEGIN_COMMENT
+C-c C-e h h (org-html-export-to-html)    export current as an .html
+
+and then copy as index.html
+
+Stuff that won't be exported 
+
+#+HTML_HEAD:
+file:myLongtimeStevensPhoto.jpg
+
+Publishing on github
+https://pages.github.com/
+
+- create public repo, say naumann.github.com 
+- index.html (and whatever supporting files, which I'll keep few for now)
+
+git clone git@github.com:dnaumann/naumann
+
+That's it.
+
+#+END_COMMENT
+
+# Print out the previously disabled (toc:nil) table of contents.
+#+TOC: headlines 1 :ALT_TITLE:nil
+
+
+* Research
+
+My focus is on formal methods and software security, including:
+ad hoc network application security;
+web and mobile app security;
+fine-grained confidentiality/integrity policies;
+program analysis, verification, and transformation;
+correctness by construction; 
+and methodology for formal specification of distributed system components.
+
+I'm in the [[https://mgree.github.io/cypress/][Cypress]] group.
+
+** Publications 
+
+#+BEGIN_COMMENT
+[[file:~/cs_html/publications/index.html][my page]] [[https://dblp.org/pid/39/2319.html][DBLP]] [[https://scholar.google.com/citations?user=ZC0qa2EAAAAJ&hl=en&oi=ao][Google Scholar]]
+#+END_COMMENT
+
+[[https://dblp.org/pid/39/2319.html][DBLP]] [[https://scholar.google.com/citations?user=ZC0qa2EAAAAJ&hl=en&oi=ao][Google Scholar]]
+
+Recent papers:
+
+[[https://dl.acm.org/doi/10.1145/3551497][A Relational Program Logic with Data Abstraction and Dynamic Framing]]
+(with Anindya Banerjee, Ramana Nagasamudram, and Mohammad Nikouei)
+in ACM TOPLAS 2022.
+
+[[https://arxiv.org/abs/2202.04278][An Algebra of Alignment for Relational Verification]] (with Timos Antonopoulos, Eric Koskinen, Ton Chanh Le, Ramana Nagasamudram and Minh Ngo) in POPL 2023.
+
+The WhyRel Prototype for Modular Relational Verification of Pointer Programs
+(with Ramana Nagasamudram and Anindya Banerjee) to appear in TACAS 2023.
+
+Toward Tool-Independent Summaries for Symbolic Execution
+(with Frederico Ramos, Nuno Sabino, Pedro Adão and José Fragoso Santos)
+to appear in ECOOP 2023.
+
+** Advisees 
+
+Current and past PhD students: Ramana Nagasamudram; 
+Mohammad Nikouei (defended 2019); Andrey Chudnov (defended 2016); Chunyu Tang 
+(defended 2013); Stan Rosenberg (defended 2011); Qi Sun (defended 2007).  
+
+Postdoctoral research associates: 
+Minh Ngo (2019), Mounir Assaf (2015--17).
+
+** Support 
+
+Siemens, Microsoft Research, NSF CNS-1718713, NSF CCF-1649884, [[https://deepspec.org/main][NSF DeepSpec]]
+
+* Teaching 
+
+** Courses
+
+Fall 2022: CS 643 Formal Verification of Software 
+
+** Assistantships
+
+Undergraduate summer research:
+Contact me early in Spring semester for projects.
+
+PhD positions: 
+From time to time I take on new PhD students
+for research on software verification and secure information flow: policies, static analysis, and runtime monitoring.  Full funding is provided.   The ideal candidates have background in programming language theory and implementation or formal methods.
+
+* Recent service 
+
+Program committee co-chair, [[https://www.ieee-security.org/TC/CSF2022/][IEEE Computer Security Foundations Symposium]] (2021 and 2022)
+
+Program committee member: ACM Principles of Programming Languages (2023, 2019),
+International Symposium on Formal Methods (2019),
+European Symposium on Programming (2019) 
+
+Editorial boards: [[https://dl.acm.org/journal/toplas][ACM Transactions on Programming Languages and Systems]],
+[[https://dl.acm.org/journal/fac][Formal Aspects of Computing]],
+[[https://www.jot.fm/masthead.html][Journal of Object Technology]] 
+
+
+* Miscellany 
+
+** A series of noun phrases (lacunae not shown)
+
+[[https://www.sigplan.org/Conferences/PLMW/][Mentoring for PL research]]; 
+[[https://fairplayforkids.org][Childhood beyond brands]];  
+[[https://www.verifiedvoting.org/][Verifying what counts]];
+my Chinese name (那 德 维);
+[[https://www.cs.stevens.edu/~naumann][where my page should be]];
+[[https://joaogrande.org/][Capoeira Angola Center of Mestre João Grande]]; 
+[[https://freedom-to-tinker.com/][Freedom to Tinker]];   
+[[http://www.emoreiro.com/GAFS/carolfreeman.htm][Smyrneika]], [[https://brianlawlor.bandcamp.com][guitar]], and [[http://www.youtube.com/watch?v=ikaM7jlKp9E][voice]] teachers;
+[[http://www.hazecam.net/newark.html][air quality]]; 
+[[http://sivers.org/kimo][speed limits for chumps]]; 
+[[https://www.africanfilm.com/][African diaspora]]; 
+[[http://ucmp.berkeley.edu/help/timeform.php][timeliness]] of my stylish home page;
+the cry of the imaginary cuica. 
+
+
+** This site created using [[https://orgmode.org][org mode]]

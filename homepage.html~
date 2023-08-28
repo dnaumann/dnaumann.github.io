@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2023-02-09 Thu 20:48 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Dave Naumann</title>
+<meta name="author" content="Dave Naumann" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" type="text/css" href="homepage.css"/>
+</head>
+<body>
+<div id="org-div-home-and-up">
+ <a accesskey="h" href=""> UP </a>
+ |
+ <a accesskey="H" href="https://www.cs.stevens.edu/~naumann"> HOME </a>
+</div><div id="content" class="content">
+<h1 class="title">Dave Naumann</h1>
+<div class="figure">
+<img src="BreakneckCropped2.jpg" alt="Dave photo" style="float:left" width=300>
+</div>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">Professor and Department Chair of Computer Science</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.stevens.edu">Stevens Institute of Technology</a></td>
+</tr>
+
+<tr>
+<td class="org-left">Hoboken, NJ, USA</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://faculty.stevens.edu/dnaumann">Contact</a> and <a href="cv-nov-2022.pdf">CV</a></td>
+</tr>
+</tbody>
+</table>
+
+
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org9aee128">Research</a></li>
+<li><a href="#orgc2d65f9">Teaching</a></li>
+<li><a href="#orgb279ab4">Recent service</a></li>
+<li><a href="#org19e9425">Miscellany</a></li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-org9aee128" class="outline-2">
+<h2 id="org9aee128">Research</h2>
+<div class="outline-text-2" id="text-org9aee128">
+<p>
+My focus is on formal methods and software security, including:
+ad hoc network application security;
+web and mobile app security;
+fine-grained confidentiality/integrity policies;
+program analysis, verification, and transformation;
+correctness by construction; 
+and methodology for formal specification of distributed system components.
+</p>
+
+<p>
+I'm in the <a href="https://mgree.github.io/cypress/">Cypress</a> group.
+</p>
+</div>
+
+<div id="outline-container-org571e60c" class="outline-3">
+<h3 id="org571e60c">Publications</h3>
+<div class="outline-text-3" id="text-org571e60c">
+<p>
+<a href="https://dblp.org/pid/39/2319.html">DBLP</a> <a href="https://scholar.google.com/citations?user=ZC0qa2EAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar</a>
+</p>
+
+<p>
+Recent papers:
+</p>
+
+<p>
+<a href="https://dl.acm.org/doi/10.1145/3551497">A Relational Program Logic with Data Abstraction and Dynamic Framing</a>
+(with Anindya Banerjee, Ramana Nagasamudram, and Mohammad Nikouei)
+in ACM TOPLAS 2022.
+</p>
+
+<p>
+<a href="https://arxiv.org/abs/2202.04278">An Algebra of Alignment for Relational Verification</a> (with Timos Antonopoulos, Eric Koskinen, Ton Chanh Le, Ramana Nagasamudram and Minh Ngo) in POPL 2023.
+</p>
+
+<p>
+The WhyRel Prototype for Modular Relational Verification of Pointer Programs
+(with Ramana Nagasamudram and Anindya Banerjee) to appear in TACAS 2023.
+</p>
+
+<p>
+Toward Tool-Independent Summaries for Symbolic Execution
+(with Frederico Ramos, Nuno Sabino, Pedro Adão and José Fragoso Santos)
+to appear in ECOOP 2023.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org3a5ace4" class="outline-3">
+<h3 id="org3a5ace4">Advisees</h3>
+<div class="outline-text-3" id="text-org3a5ace4">
+<p>
+Current and past PhD students: Ramana Nagasamudram; 
+Mohammad Nikouei (defended 2019); Andrey Chudnov (defended 2016); Chunyu Tang 
+(defended 2013); Stan Rosenberg (defended 2011); Qi Sun (defended 2007).  
+</p>
+
+<p>
+Postdoctoral research associates: 
+Minh Ngo (2019), Mounir Assaf (2015&#x2013;17).
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgec03f2b" class="outline-3">
+<h3 id="orgec03f2b">Support</h3>
+<div class="outline-text-3" id="text-orgec03f2b">
+<p>
+Siemens, Microsoft Research, NSF CNS-1718713, NSF CCF-1649884, <a href="https://deepspec.org/main">NSF DeepSpec</a>
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgc2d65f9" class="outline-2">
+<h2 id="orgc2d65f9">Teaching</h2>
+<div class="outline-text-2" id="text-orgc2d65f9">
+</div>
+<div id="outline-container-orgd6bb8fc" class="outline-3">
+<h3 id="orgd6bb8fc">Courses</h3>
+<div class="outline-text-3" id="text-orgd6bb8fc">
+<p>
+Fall 2022: CS 643 Formal Verification of Software 
+</p>
+</div>
+</div>
+
+<div id="outline-container-org5d0b41d" class="outline-3">
+<h3 id="org5d0b41d">Assistantships</h3>
+<div class="outline-text-3" id="text-org5d0b41d">
+<p>
+Undergraduate summer research:
+Contact me early in Spring semester for projects.
+</p>
+
+<p>
+PhD positions: 
+From time to time I take on new PhD students
+for research on software verification and secure information flow: policies, static analysis, and runtime monitoring.  Full funding is provided.   The ideal candidates have background in programming language theory and implementation or formal methods.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgb279ab4" class="outline-2">
+<h2 id="orgb279ab4">Recent service</h2>
+<div class="outline-text-2" id="text-orgb279ab4">
+<p>
+Program committee co-chair, <a href="https://www.ieee-security.org/TC/CSF2022/">IEEE Computer Security Foundations Symposium</a> (2021 and 2022)
+</p>
+
+<p>
+Program committee member: ACM Principles of Programming Languages (2023, 2019),
+International Symposium on Formal Methods (2019),
+European Symposium on Programming (2019) 
+</p>
+
+<p>
+Editorial boards: <a href="https://dl.acm.org/journal/toplas">ACM Transactions on Programming Languages and Systems</a>,
+<a href="https://dl.acm.org/journal/fac">Formal Aspects of Computing</a>,
+<a href="https://www.jot.fm/masthead.html">Journal of Object Technology</a> 
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-org19e9425" class="outline-2">
+<h2 id="org19e9425">Miscellany</h2>
+<div class="outline-text-2" id="text-org19e9425">
+</div>
+<div id="outline-container-org71af771" class="outline-3">
+<h3 id="org71af771">A series of noun phrases (lacunae not shown)</h3>
+<div class="outline-text-3" id="text-org71af771">
+<p>
+<a href="https://www.sigplan.org/Conferences/PLMW/">Mentoring for PL research</a>; 
+<a href="https://fairplayforkids.org">Childhood beyond brands</a>;  
+<a href="https://www.verifiedvoting.org/">Verifying what counts</a>;
+<a href="https://www.cs.stevens.edu/~naumann">where my page should be</a>;
+<a href="https://joaogrande.org/">Capoeira Angola Center of Mestre João Grande</a>; 
+<a href="https://freedom-to-tinker.com/">Freedom to Tinker</a>;   
+<a href="http://www.emoreiro.com/GAFS/carolfreeman.htm">Smyrneika</a>, <a href="https://brianlawlor.bandcamp.com">guitar</a>, and <a href="http://www.youtube.com/watch?v=ikaM7jlKp9E">voice</a> teachers;
+<a href="http://www.hazecam.net/newark.html">air quality</a>; 
+<a href="http://sivers.org/kimo">speed limits for chumps</a>; 
+<a href="https://www.africanfilm.com/">African diaspora</a>; 
+<a href="http://ucmp.berkeley.edu/help/timeform.php">timeliness</a> of my stylish home page;
+the cry of the imaginary cuica. 
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-org2850f0f" class="outline-3">
+<h3 id="org2850f0f">This site created using <a href="https://orgmode.org">org mode</a></h3>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Dave Naumann</p>
+<p class="date">Created: 2023-02-09 Thu 20:48</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
