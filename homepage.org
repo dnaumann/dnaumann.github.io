@@ -17,7 +17,7 @@
 | [[https://www.stevens.edu][Stevens Institute of Technology]]                    |
 | Hoboken, NJ, USA                                   |
 |                                                    |
-| [[https://faculty.stevens.edu/dnaumann][Contact]] and [[file:cv-aug-2023.pdf][CV]]                                     
+| [[https://faculty.stevens.edu/dnaumann][Contact]] and [[file:cv-oct-2024.pdf][CV]]                                     
 |
 
 
@@ -75,16 +75,17 @@ in ACM TOPLAS 2022.
 
 [[https://arxiv.org/abs/2202.04278][An Algebra of Alignment for Relational Verification]] (with Timos Antonopoulos, Eric Koskinen, Ton Chanh Le, Ramana Nagasamudram and Minh Ngo) in POPL 2023.
 
-The WhyRel Prototype for Modular Relational Verification of Pointer Programs
-(with Ramana Nagasamudram and Anindya Banerjee) to appear in TACAS 2023.
+[[https://arxiv.org/abs/2303.14314][The WhyRel Prototype for Modular Relational 
+Verification of Pointer Programs]]
+(with Ramana Nagasamudram and Anindya Banerjee) in TACAS 2023.
 
 Toward Tool-Independent Summaries for Symbolic Execution
 (with Frederico Ramos, Nuno Sabino, Pedro Adão and José Fragoso Santos)
-to appear in ECOOP 2023.
+in ECOOP 2023.
 
 ** Advisees 
 
-Current and past PhD students: Ramana Nagasamudram; 
+Current and past PhD students: Jude Kanjamala; Ramana Nagasamudram; 
 Mohammad Nikouei (defended 2019); Andrey Chudnov (defended 2016); Chunyu Tang 
 (defended 2013); Stan Rosenberg (defended 2011); Qi Sun (defended 2007).  
 
@@ -93,13 +94,15 @@ Minh Ngo (2019), Mounir Assaf (2015--17).
 
 ** Support 
 
-Siemens, Microsoft Research, NSF CNS-1718713, NSF CCF-1649884, [[https://deepspec.org/main][NSF DeepSpec]]
+Siemens, Microsoft Research, 
+NSF CNS-2426414, 
+NSF CNS-1718713, NSF CCF-1649884, [[https://deepspec.org/main][NSF DeepSpec]]
 
 * Teaching 
 
 ** Courses
 
-Fall 2022: CS 643 Formal Verification of Software 
+Fall 2024: CS 643 Formal Verification of Software 
 
 ** Assistantships
 
