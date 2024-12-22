@@ -46,15 +46,17 @@ That's it.
 # Print out the previously disabled (toc:nil) table of contents.
 #+TOC: headlines 1 :ALT_TITLE:nil
 
+# ad hoc network application security;
+# web and mobile app security;
 
 * Research
 
 My focus is on formal methods and software security, including:
-ad hoc network application security;
-web and mobile app security;
+relational and hyperproperty verification;
 fine-grained confidentiality/integrity policies;
 program analysis, verification, and transformation;
 correctness by construction; 
+program logics and machine-checked metatheory;
 and methodology for formal specification of distributed system components.
 
 I'm in the [[https://mgree.github.io/cypress/][Cypress]] group.
@@ -136,9 +138,9 @@ Editorial boards: [[https://dl.acm.org/journal/toplas][ACM Transactions on Progr
 my Chinese name (那 德 维);
 [[https://www.cs.stevens.edu/~naumann][where my page should be]];
 [[https://joaogrande.org/][Capoeira Angola Center of Mestre João Grande]]; 
-[[https://freedom-to-tinker.com/][Freedom to Tinker]];   
-[[http://www.emoreiro.com/GAFS/carolfreeman.htm][Smyrneika]], [[https://brianlawlor.bandcamp.com][guitar]], and [[http://www.youtube.com/watch?v=ikaM7jlKp9E][voice]] teachers;
-[[http://www.hazecam.net/newark.html][air quality]]; 
+[[https://freedom-to-tinker.com/][Freedom to Tinker]]; 
+[[https://www.emoreiro.com/GAFS/carolfreeman.htm][Smyrneika]], 
+[[https://brianlawlor.bandcamp.com][guitar]], and [[http://www.youtube.com/watch?v=ikaM7jlKp9E][voice]] teachers;
 [[http://sivers.org/kimo][speed limits for chumps]]; 
 [[https://www.africanfilm.com/][African diaspora]]; 
 [[http://ucmp.berkeley.edu/help/timeform.php][timeliness]] of my stylish home page;
