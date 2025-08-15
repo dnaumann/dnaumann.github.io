@@ -80,6 +80,7 @@ in ACM TOPLAS 2022.
 [[https://arxiv.org/abs/2303.14314][The WhyRel Prototype for Modular Relational 
 Verification of Pointer Programs]]
 (with Ramana Nagasamudram and Anindya Banerjee) in TACAS 2023.
+Extended version [[https://link.springer.com/article/10.1007/s10009-025-00786-1][WhyRel: an Auto-active Relational Verifier]] in Software Tools for Technology Transfer 2025.
 
 Toward Tool-Independent Summaries for Symbolic Execution
 (with Frederico Ramos, Nuno Sabino, Pedro Adão and José Fragoso Santos)
@@ -88,10 +89,14 @@ in ECOOP 2023.
 Assume but Verify: Deductive Verification of Leaked Information in Concurrent Applications
 (with Toby Murray, Mukesh Tiwari and Gidon Ernst) in CCS 2023.
 
+Verifying a C implementation of Derecho's coordination mechanism using VST and Coq
+(with Ramana Nagasamudram, Lennart Beringer, Ken Birman, and Mae Milano)
+in NASA Formal Methods Symposium 2024.
+
 
 ** Advisees 
 
-Current and past PhD students: Jude Kanjamala; Ramana Nagasamudram; 
+Current and past PhD students: Jude Kanjamala; Ramana Nagasamudram (defended 2025); 
 Mohammad Nikouei (defended 2019); Andrey Chudnov (defended 2016); Chunyu Tang 
 (defended 2013); Stan Rosenberg (defended 2011); Qi Sun (defended 2007).  
 
