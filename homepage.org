@@ -17,8 +17,8 @@
 | [[https://www.stevens.edu][Stevens Institute of Technology]]                    |
 | Hoboken, NJ, USA                                   |
 |                                                    |
-| [[https://faculty.stevens.edu/dnaumann][Contact]] and [[file:cv-oct-2024.pdf][CV]]                                     
-|
+| [[https://faculty.stevens.edu/dnaumann][Contact]] and [[file:cv-aug-2025.pdf][CV]]                                     |
+|                                                    |
 
 
 #+BEGIN_COMMENT
@@ -71,16 +71,22 @@ I'm in the [[https://mgree.github.io/cypress/][Cypress]] group.
 
 Some recent papers:
 
-[[https://dl.acm.org/doi/10.1145/3551497][A Relational Program Logic with Data Abstraction and Dynamic Framing]]
-(with Anindya Banerjee, Ramana Nagasamudram, and Mohammad Nikouei)
-in ACM TOPLAS 2022.
+[[https://arxiv.org/abs/2509.04777][Forall-Exists Relational Verification by Filtering to Forall-Forall]]
+(with Ramana Nagasamudram and Anindya Banerjee) 2025.
 
-[[https://arxiv.org/abs/2202.04278][An Algebra of Alignment for Relational Verification]] (with Timos Antonopoulos, Eric Koskinen, Ton Chanh Le, Ramana Nagasamudram and Minh Ngo) in POPL 2023.
+[[https://arxiv.org/abs/2307.10045][Alignment complete relational Hoare logics for some and all]]
+(with Ramana Nagasamudram and Anindya Banerjee) 2025.
 
 [[https://arxiv.org/abs/2303.14314][The WhyRel Prototype for Modular Relational 
 Verification of Pointer Programs]]
 (with Ramana Nagasamudram and Anindya Banerjee) in TACAS 2023.
 Extended version [[https://link.springer.com/article/10.1007/s10009-025-00786-1][WhyRel: an Auto-active Relational Verifier]] in Software Tools for Technology Transfer 2025.
+
+Verifying a C implementation of Derecho's coordination mechanism using VST and Coq
+(with Ramana Nagasamudram, Lennart Beringer, Ken Birman, and Mae Milano)
+in NASA Formal Methods Symposium 2024.
+
+[[https://arxiv.org/abs/2202.04278][An Algebra of Alignment for Relational Verification]] (with Timos Antonopoulos, Eric Koskinen, Ton Chanh Le, Ramana Nagasamudram and Minh Ngo) in POPL 2023.
 
 Toward Tool-Independent Summaries for Symbolic Execution
 (with Frederico Ramos, Nuno Sabino, Pedro Adão and José Fragoso Santos)
@@ -89,9 +95,9 @@ in ECOOP 2023.
 Assume but Verify: Deductive Verification of Leaked Information in Concurrent Applications
 (with Toby Murray, Mukesh Tiwari and Gidon Ernst) in CCS 2023.
 
-Verifying a C implementation of Derecho's coordination mechanism using VST and Coq
-(with Ramana Nagasamudram, Lennart Beringer, Ken Birman, and Mae Milano)
-in NASA Formal Methods Symposium 2024.
+[[https://dl.acm.org/doi/10.1145/3551497][A Relational Program Logic with Data Abstraction and Dynamic Framing]]
+(with Anindya Banerjee, Ramana Nagasamudram, and Mohammad Nikouei)
+in ACM TOPLAS 2022.
 
 
 ** Advisees 
