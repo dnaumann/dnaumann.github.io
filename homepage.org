@@ -17,7 +17,9 @@
 | [[https://www.stevens.edu][Stevens Institute of Technology]]                    |
 | Hoboken, NJ, USA                                   |
 |                                                    |
-| [[https://faculty.stevens.edu/dnaumann][Contact]] and [[file:cv-aug-2025.pdf][CV]]                                     |
+| Visiting Professor, Cornell University (2025-26)   |
+|                                                    |
+| [[https://faculty.stevens.edu/dnaumann][Contact]] and [[file:cv-mar-2026.pdf][CV]]                                     |
 |                                                    |
 
 
@@ -72,10 +74,10 @@ I'm in the [[https://mgree.github.io/cypress/][Cypress]] group.
 Some recent papers:
 
 [[https://arxiv.org/abs/2509.04777][Forall-Exists Relational Verification by Filtering to Forall-Forall]]
-(with Ramana Nagasamudram and Anindya Banerjee) 2025.
+(with Ramana Nagasamudram, Anindya Banerjee and Jude Kanjamala) 2025.
 
 [[https://arxiv.org/abs/2307.10045][Alignment complete relational Hoare logics for some and all]]
-(with Ramana Nagasamudram and Anindya Banerjee) 2025.
+(with Ramana Nagasamudram and Anindya Banerjee) in Logical Methods in Computer Science 2025.
 
 [[https://arxiv.org/abs/2303.14314][The WhyRel Prototype for Modular Relational 
 Verification of Pointer Programs]]
