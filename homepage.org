@@ -73,6 +73,9 @@ I'm in the [[https://mgree.github.io/cypress/][Cypress]] group.
 
 Some recent papers:
 
+[[https://arxiv.org/abs/2608.00882][Assuming You Knew: Fixing an Epistemic Semantics for Flow Policies Using Agentic AI]] 2026.
+Preliminary Rocq files are [[https://www.cs.stevens.edu/~naumann/pub/temp_assumeKnow.tgz][here]].
+
 [[https://arxiv.org/abs/2509.04777][Forall-Exists Relational Verification by Filtering to Forall-Forall]]
 (with Ramana Nagasamudram, Anindya Banerjee and Jude Kanjamala) 2025.
 
