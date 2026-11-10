@@ -13,14 +13,15 @@
 #+END_EXPORT
 #+HTML_HEAD: 
 
-| Professor and Department Chair of Computer Science |
-| [[https://www.stevens.edu][Stevens Institute of Technology]]                    |
-| Hoboken, NJ, USA                                   |
-|                                                    |
-| Visiting Professor, Cornell University (2025-26)   |
-|                                                    |
-| [[https://faculty.stevens.edu/dnaumann][Contact]] and [[file:cv-mar-2026.pdf][CV]]                                     |
-|                                                    |
+| Professor of Computer Science                                  |
+| Associate Dean for Research and Faculty Development            |
+| [[https://www.stevens.edu/school-computing][School of Computing]], [[https://www.stevens.edu][Stevens Institute of Technology]]                |
+| Hoboken, NJ, USA                                               |
+|                                                                |
+| Visiting Professor, Cornell University (2025-26)               |
+|                                                                |
+| [[https://faculty.stevens.edu/dnaumann][Contact]] and [[file:cv-mar-2026.pdf][CV]]                                                 |
+|                                                                |
 
 
 #+BEGIN_COMMENT
@@ -59,7 +60,8 @@ fine-grained confidentiality/integrity policies;
 program analysis, verification, and transformation;
 correctness by construction; 
 program logics and machine-checked metatheory;
-and methodology for formal specification of distributed system components.
+methodology for formal specification of distributed system components;
+agentic AI in formal verification.
 
 I'm in the [[https://mgree.github.io/cypress/][Cypress]] group.
 
@@ -74,7 +76,7 @@ I'm in the [[https://mgree.github.io/cypress/][Cypress]] group.
 Some recent papers:
 
 [[https://arxiv.org/abs/2608.00882][Assuming You Knew: Fixing an Epistemic Semantics for Flow Policies Using Agentic AI]] 2026.
-Preliminary Rocq files are [[https://www.cs.stevens.edu/~naumann/pub/temp_assumeKnow.tgz][here]].
+Rocq files are [[https://zenodo.org/records/22970019][here].
 
 [[https://arxiv.org/abs/2509.04777][Forall-Exists Relational Verification by Filtering to Forall-Forall]]
 (with Ramana Nagasamudram, Anindya Banerjee and Jude Kanjamala) 2025.
@@ -118,13 +120,13 @@ Minh Ngo (2019), Mounir Assaf (2015--17).
 
 Siemens, Microsoft Research, 
 NSF CNS-2426414, 
-NSF CNS-1718713, NSF CCF-1649884, [[https://deepspec.org/main][NSF DeepSpec]]
+NSF CNS-1718713, NSF CCF-1649884, [[https://deepspec.org/main][NSF DeepSpec]], etc.
 
 * Teaching 
 
 ** Courses
 
-Fall 2024: CS 643 Formal Verification of Software 
+Spring 2027: CS 643 Formal Verification of Software 
 
 ** Assistantships
 
